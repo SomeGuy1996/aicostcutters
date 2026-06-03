@@ -570,6 +570,11 @@
     "keybindings": [
       {
         "command": "kilo-code.new.focusChatInput",
+        "key": "ctrl+shift+r",
+        "mac": "cmd+shift+r"
+      },
+      {
+        "command": "kilo-code.new.focusChatInput",
         "key": "ctrl+shift+a",
         "mac": "cmd+shift+a"
       },
