@@ -17,6 +17,8 @@ packages\kilo-vscode\sober-code-7.3.22.vsix
 ```powershell
 cd packages\kilo-vscode
 npx @vscode/vsce package --no-dependencies -o sober-code-7.3.22.vsix
+file will be exported to packages\kilo-vscode\sober-code-7.3.22.vsix
+for me C:\Users\michaelsurpin\tokensave\savetokens\packages\kilo-vscode> 
 ```
 
 This repackages the existing compiled extension + CLI binary. No source rebuild needed unless you change source files.
