@@ -45,6 +45,7 @@ import { createColors, createFrames } from "../../ui/spinner.ts"
 import { useDialog } from "@tui/ui/dialog"
 import { DialogProvider as DialogProviderConnect } from "../dialog-provider"
 import { DialogAlert } from "../../ui/dialog-alert"
+import { DialogConfirm } from "../../ui/dialog-confirm"
 import { useToast } from "../../ui/toast"
 import { useKV } from "../../context/kv"
 import { createFadeIn } from "../../util/signal"
@@ -202,6 +203,7 @@ export function Prompt(props: PromptProps) {
   const [workspaceCreatingDots, setWorkspaceCreatingDots] = createSignal(3)
   const [warpNotice, setWarpNotice] = createSignal<string>()
   const [cursorVersion, setCursorVersion] = createSignal(0)
+  const [drunkCheckDone, setDrunkCheckDone] = createSignal(false)
   const currentProviderLabel = createMemo(() => local.model.parsed().provider)
   const hasRightContent = createMemo(() => Boolean(props.right))
   const defaultWorkspaceID = createMemo(() => props.workspaceID ?? project.workspace.current())
@@ -1037,6 +1039,18 @@ export function Prompt(props: PromptProps) {
 
   async function submit() {
     setWarpNotice(undefined)
+
+    // kilocode_change start - sobriety check before first message
+    if (!drunkCheckDone()) {
+      const result = await DialogConfirm.show(dialog, "Sobriety Check", "Are you drunk?", "Yes")
+      if (result === undefined) return false
+      if (result === false) {
+        dialog.clear()
+        return false
+      }
+      setDrunkCheckDone(true)
+    }
+    // kilocode_change end
 
     // IME: double-defer may fire before onContentChange flushes the last
     // composed character (e.g. Korean hangul) to the store, so read

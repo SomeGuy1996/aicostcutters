@@ -47,7 +47,7 @@ const KiloLogo = (): JSX.Element => {
 
   return (
     <div class="kilo-logo">
-      <img src={`${iconsBaseUri}/${iconFile}`} alt="Kilo Code" />
+      <img src={`${iconsBaseUri}/${iconFile}`} alt="Sober Code" />
     </div>
   )
 }

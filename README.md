@@ -11,12 +11,12 @@
 </p>
 
 <p align="center">
-  <strong>Kilo is the all-in-one agentic engineering platform.</strong><br>
-  Build, ship, and iterate faster with the most popular open source coding agent.
+  <strong>Sober Code</strong><br>
+  An AI coding agent with a built-in sobriety check. Forked from <a href="https://github.com/Kilo-Org/kilocode">Kilo Code</a>.
 </p>
 
 <p align="center">
-  <img width="100%" alt="Kilo Code running inside VS Code" src="https://kilo.ai/_next/image?url=%2Fscreenshots%2Fvs-code%2Fvs-code-home-page-screenshot.png&w=3840&q=75">
+  <strong>Every first message requires a sobriety confirmation before the AI processes your request.</strong>
 </p>
 
 <p align="center">

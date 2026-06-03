@@ -68,3 +68,11 @@ tsconfig.tsbuildinfo
 # Test Artifacts
 packages/app/.artifacts/
 packages/opencode/.artifacts/
+
+# VS Code Extension
+*.vsix
+
+# Sober Code — local env (safe to commit: .env.example)
+.env
+.env.*
+!.env.example
