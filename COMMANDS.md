@@ -1,4 +1,4 @@
-# Sober Code — Build & Deploy Commands
+﻿# AICostCutters — Build & Deploy Commands
 
 ## Prerequisites
 
@@ -9,15 +9,15 @@
 ## VSIX Location
 
 ```
-packages\kilo-vscode\sober-code-7.3.22.vsix
+packages\kilo-vscode\aicostcutters-7.3.22.vsix
 ```
 
 ## Rebuild the VSIX
 
 ```powershell
 cd packages\kilo-vscode
-npx @vscode/vsce package --no-dependencies -o sober-code-7.3.22.vsix
-file will be exported to packages\kilo-vscode\sober-code-7.3.22.vsix
+npx @vscode/vsce package --no-dependencies -o aicostcutters-7.3.22.vsix
+file will be exported to packages\kilo-vscode\aicostcutters-7.3.22.vsix
 for me C:\Users\michaelsurpin\tokensave\savetokens\packages\kilo-vscode> 
 ```
 
@@ -40,7 +40,7 @@ cd ..\kilo-vscode
 node esbuild.js
 
 # 4. Package VSIX
-npx @vscode/vsce package --no-dependencies -o sober-code-7.3.22.vsix
+npx @vscode/vsce package --no-dependencies -o aicostcutters-7.3.22.vsix
 
 # 5. Restore .env
 Move-Item ..\..\.env.bak ..\..\.env
@@ -49,13 +49,13 @@ Move-Item ..\..\.env.bak ..\..\.env
 ## Test Locally (Windows)
 
 ```powershell
-code --install-extension packages\kilo-vscode\sober-code-7.3.22.vsix
+code --install-extension packages\kilo-vscode\aicostcutters-7.3.22.vsix
 ```
 
 Then:
 1. Open VS Code
-2. Press **Ctrl+Shift+R** (or **Ctrl+Shift+A**) to open Sober Code chat
-3. Or click the Sober Code icon in the activity bar (left sidebar)
+2. Press **Ctrl+Shift+R** (or **Ctrl+Shift+A**) to open AICostCutters chat
+3. Or click the AICostCutters icon in the activity bar (left sidebar)
 4. Type a message and press Enter
 5. **Sobriety Check dialog appears** — click "Confirm" to proceed (you're sober) or "Yes" to cancel (you're drunk)
 6. To configure AI provider keys: click the gear ⚙ icon → Settings tab
@@ -74,7 +74,7 @@ Then:
 ```powershell
 $env:VSCE_PAT="<your-pat-token>"
 cd packages\kilo-vscode
-npx vsce publish --packagePath sober-code-7.3.22.vsix
+npx vsce publish --packagePath aicostcutters-7.3.22.vsix
 ```
 
 Or publish directly (rebuilds and publishes):
@@ -96,8 +96,8 @@ It may take a few minutes to become searchable in the VS Code Extensions panel.
 
 | Shortcut | Action |
 |---|---|
-| `Ctrl+Shift+R` / `Cmd+Shift+R` | Open Sober Code chat and focus input |
-| `Ctrl+Shift+A` / `Cmd+Shift+A` | Open Sober Code chat and focus input (alternate) |
+| `Ctrl+Shift+R` / `Cmd+Shift+R` | Open AICostCutters chat and focus input |
+| `Ctrl+Shift+A` / `Cmd+Shift+A` | Open AICostCutters chat and focus input (alternate) |
 | `Ctrl+Shift+M` / `Cmd+Shift+M` | Open Agent Manager |
 
 ## Files
@@ -106,4 +106,4 @@ It may take a few minutes to become searchable in the VS Code Extensions panel.
 |---|---|
 | `.env` | Extension config (not committed) |
 | `.env.example` | Template for `.env` (committed, safe to share) |
-| `packages\kilo-vscode\sober-code-7.3.22.vsix` | Built VSIX package |
+| `packages\kilo-vscode\aicostcutters-7.3.22.vsix` | Built VSIX package |

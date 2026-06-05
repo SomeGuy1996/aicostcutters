@@ -1,0 +1,23 @@
+{
+  "name": "run-marketplace-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 3020",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 3021"
+  },
+  "dependencies": {
+    "@kilocode/kilo-ui": "workspace:*",
+    "@opencode-ai/ui": "workspace:*",
+    "solid-js": "catalog:"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "catalog:",
+    "@types/bun": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vite-plugin-solid": "catalog:"
+  }
+}

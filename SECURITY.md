@@ -1,4 +1,4 @@
-# Security
+﻿# Security
 
 ## IMPORTANT
 
@@ -10,17 +10,17 @@ submit one that will be an automatic ban from the project.
 
 ### Overview
 
-Kilo CLI is an AI-powered coding assistant that runs locally on your machine. It provides an agent system with access to powerful tools including shell execution, file operations, and web access.
+AICostCutters is an AI-powered coding assistant that runs locally on your machine. It provides an agent system with access to powerful tools including shell execution, file operations, and web access.
 
 ### No Sandbox
 
-Kilo CLI does **not** sandbox the agent. The permission system exists as a UX feature to help users stay aware of what actions the agent is taking - it prompts for confirmation before executing commands, writing files, etc. However, it is not designed to provide security isolation.
+AICostCutters does **not** sandbox the agent. The permission system exists as a UX feature to help users stay aware of what actions the agent is taking - it prompts for confirmation before executing commands, writing files, etc. However, it is not designed to provide security isolation.
 
-If you need true isolation, run Kilo CLI inside a Docker container or VM.
+If you need true isolation, run AICostCutters inside a Docker container or VM.
 
 ### Server Mode
 
-Server mode is opt-in only. When enabled, set `KILO_SERVER_PASSWORD` to require HTTP Basic Auth. Without this, the server runs unauthenticated (with a warning). It is the end user's responsibility to secure the server - any functionality it provides is not a vulnerability.
+Server mode is opt-in only. When enabled, set `AICOSTCUTTERS_SERVER_PASSWORD` to require HTTP Basic Auth. Without this, the server runs unauthenticated (with a warning). It is the end user's responsibility to secure the server - any functionality it provides is not a vulnerability.
 
 ### Out of Scope
 
@@ -38,8 +38,6 @@ Server mode is opt-in only. When enabled, set `KILO_SERVER_PASSWORD` to require 
 
 We value the contributions of the security research community and recognize the importance of a coordinated approach to vulnerability disclosure. If you have discovered a security vulnerability, we encourage you to let us know immediately. We welcome the opportunity to work with you to resolve the issue promptly.
 
-Please email your findings to [security@kilo.ai](mailto:security@kilo.ai). We will acknowledge your report and work with you to resolve the issue.
+Please open a security advisory on our GitHub repository to report findings. We will acknowledge your report and work with you to resolve the issue.
 
 After the initial reply to your report, the security team will keep you informed of the progress towards a fix and full announcement, and may ask for additional information or guidance.
-
-For more details, see our [Security Disclosure](https://kilo.ai/security) page.

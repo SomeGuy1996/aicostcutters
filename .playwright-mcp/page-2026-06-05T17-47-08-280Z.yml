@@ -1,0 +1,87 @@
+- generic [ref=e4]:
+  - tablist [ref=e5]:
+    - tab "Agents" [selected] [ref=e7] [cursor=pointer]
+    - tab "MCP" [ref=e9] [cursor=pointer]
+    - tab "Skills" [ref=e11] [cursor=pointer]
+  - tabpanel "Agents" [ref=e13]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - group [ref=e17]:
+          - textbox "Search..." [ref=e19]
+        - group [ref=e20]:
+          - button "All" [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: All
+            - img [ref=e25]
+      - generic [ref=e27]:
+        - button "debugging" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: debugging
+        - button "design" [ref=e30] [cursor=pointer]:
+          - generic [ref=e31]: design
+        - button "documentation" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: documentation
+        - button "methodology" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: methodology
+        - button "planning" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: planning
+        - button "quality" [ref=e38] [cursor=pointer]:
+          - generic [ref=e39]: quality
+        - button "review" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: review
+        - button "testing" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: testing
+        - button "troubleshooting" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: troubleshooting
+        - button "writing" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: writing
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e52]: Architect
+            - generic [ref=e53]: by Kilo
+          - paragraph [ref=e54]: High-level system design and planning. Focuses on architecture decisions, component boundaries, and technical specifications without writing implementation code.
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - generic [ref=e57]: Installed
+              - generic [ref=e58]: planning
+              - generic [ref=e59]: design
+            - button "Remove" [ref=e61] [cursor=pointer]
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e65]: Code Reviewer
+            - generic [ref=e66]: by Kilo
+          - paragraph [ref=e67]: Reviews code for bugs, security issues, and best practices. Provides actionable feedback with specific line references.
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - generic [ref=e70]: Installed
+              - generic [ref=e71]: review
+              - generic [ref=e72]: quality
+            - button "Remove" [ref=e74] [cursor=pointer]
+        - generic [ref=e75]:
+          - generic [ref=e78]: Documentation Writer
+          - paragraph [ref=e79]: Generates and maintains documentation including READMEs, API docs, and inline code comments.
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - generic [ref=e82]: documentation
+              - generic [ref=e83]: writing
+            - button "Install" [ref=e85] [cursor=pointer]
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e89]: Test-Driven Developer
+            - generic [ref=e90]: by Community
+          - paragraph [ref=e91]: "Follows strict TDD methodology: write failing tests first, implement minimum code to pass, then refactor."
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - generic [ref=e94]: testing
+              - generic [ref=e95]: methodology
+            - button "Install" [ref=e97] [cursor=pointer]
+        - generic [ref=e98]:
+          - generic [ref=e101]: Debugger
+          - paragraph [ref=e102]: Systematically diagnoses and fixes bugs. Uses logs, stack traces, and bisection to isolate issues.
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e105]: debugging
+              - generic [ref=e106]: troubleshooting
+            - button "Install" [ref=e108] [cursor=pointer]
+      - generic [ref=e109]:
+        - generic [ref=e110]: Can't find what you're looking for?
+        - button "Contribute on GitHub" [ref=e111] [cursor=pointer]

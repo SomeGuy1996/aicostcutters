@@ -1,0 +1,75 @@
+- generic [ref=e4]:
+  - tablist [ref=e5]:
+    - tab "Agents" [ref=e7] [cursor=pointer]
+    - tab "MCP" [ref=e9] [cursor=pointer]
+    - tab "Skills" [active] [selected] [ref=e11] [cursor=pointer]
+  - tabpanel "Skills" [ref=e202]:
+    - generic [ref=e203]:
+      - generic [ref=e204]:
+        - group [ref=e206]:
+          - textbox "Search..." [ref=e208]
+        - group [ref=e209]:
+          - button "All" [ref=e210] [cursor=pointer]:
+            - generic [ref=e211]: All
+            - img [ref=e214]
+      - generic [ref=e216]:
+        - button "Data Science" [ref=e217] [cursor=pointer]:
+          - generic [ref=e218]: Data Science
+        - button "DevOps" [ref=e219] [cursor=pointer]:
+          - generic [ref=e220]: DevOps
+        - button "Mobile" [ref=e221] [cursor=pointer]:
+          - generic [ref=e222]: Mobile
+        - button "Systems" [ref=e223] [cursor=pointer]:
+          - generic [ref=e224]: Systems
+        - button "Web Development" [ref=e225] [cursor=pointer]:
+          - generic [ref=e226]: Web Development
+      - generic [ref=e227]:
+        - generic [ref=e228]:
+          - generic [ref=e231] [cursor=pointer]: Next.js Developer
+          - paragraph [ref=e232]: Expert at building Next.js applications with App Router, server components, and modern React patterns.
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - generic [ref=e235]: Installed
+              - generic [ref=e236]: Web Development
+            - button "Remove" [ref=e238] [cursor=pointer]
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - generic [ref=e242] [cursor=pointer]: Python Data Science
+            - generic [ref=e243]: by DataTeam
+          - paragraph [ref=e244]: Analyzes data using pandas, numpy, and matplotlib. Creates visualizations and builds machine learning models.
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - generic [ref=e247]: Installed
+              - generic [ref=e248]: Data Science
+            - button "Remove" [ref=e250] [cursor=pointer]
+        - generic [ref=e251]:
+          - generic [ref=e254] [cursor=pointer]: Rust Systems
+          - paragraph [ref=e255]: Systems programming with Rust. Memory safety, concurrency, and performance optimization.
+          - generic [ref=e256]:
+            - generic [ref=e258]: Systems
+            - button "Install" [ref=e260] [cursor=pointer]
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - generic [ref=e264] [cursor=pointer]: React Native Mobile
+            - generic [ref=e265]: by MobileDev
+          - paragraph [ref=e266]: Build cross-platform mobile apps with React Native, Expo, and native modules.
+          - generic [ref=e267]:
+            - generic [ref=e269]: Mobile
+            - button "Install" [ref=e271] [cursor=pointer]
+        - generic [ref=e272]:
+          - generic [ref=e275] [cursor=pointer]: DevOps Kubernetes
+          - paragraph [ref=e276]: Container orchestration with Kubernetes. Helm charts, deployments, and cluster management.
+          - generic [ref=e277]:
+            - generic [ref=e279]: DevOps
+            - button "Install" [ref=e281] [cursor=pointer]
+        - generic [ref=e282]:
+          - generic [ref=e283]:
+            - generic [ref=e285] [cursor=pointer]: API Design
+            - generic [ref=e286]: by APIGuild
+          - paragraph [ref=e287]: Design RESTful and GraphQL APIs with OpenAPI specs, authentication, and rate limiting.
+          - generic [ref=e288]:
+            - generic [ref=e290]: Web Development
+            - button "Install" [ref=e292] [cursor=pointer]
+      - generic [ref=e293]:
+        - generic [ref=e294]: Can't find what you're looking for?
+        - button "Contribute on GitHub" [ref=e295] [cursor=pointer]

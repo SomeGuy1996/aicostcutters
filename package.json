@@ -1,6 +1,6 @@
-{
+﻿{
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "@kilocode/kilo",
+  "name": "@aicostcutters/aicostcutters",
   "description": "AI-powered development tool",
   "private": true,
   "type": "module",
@@ -22,7 +22,8 @@
   "workspaces": {
     "packages": [
       "packages/*",
-      "packages/sdk/js"
+      "packages/sdk/js",
+      "RunMarketPlaceApp"
     ],
     "catalog": {
       "@effect/opentelemetry": "4.0.0-beta.57",
@@ -109,7 +110,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kilo-Org/kilocode"
+    "url": "https://github.com/alexymarketplace/aicostcutters"
   },
   "license": "MIT",
   "prettier": {
