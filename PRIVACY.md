@@ -1,4 +1,4 @@
-﻿# AICostCutters Privacy Policy
+# AICostCutters Privacy Policy
 
 **Last Updated: March 7th, 2025**
 

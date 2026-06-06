@@ -1,4 +1,4 @@
-﻿# AICostCutters Community Code of Conduct
+# AICostCutters Community Code of Conduct
 
 ## Our Pledge
 

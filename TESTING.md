@@ -1,4 +1,4 @@
-﻿# TESTING.md
+# TESTING.md
 
 How to spin up the **local main-branch** AICostCutters backend and test it with `curl` / `fetch`. Aimed at a running AICostCutters CLI agent iterating on backend fixes without rebuilding the VS Code extension or TUI.
 

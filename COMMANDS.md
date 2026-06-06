@@ -1,4 +1,4 @@
-﻿# AICostCutters — Build & Deploy Commands
+# AICostCutters — Build & Deploy Commands
 
 ## Prerequisites
 

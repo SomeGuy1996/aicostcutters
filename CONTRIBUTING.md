@@ -1,4 +1,4 @@
-﻿# Contributing to AICostCutters CLI
+# Contributing to AICostCutters CLI
 
 See the Documentation for details on contributing.
 

@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "aicostcutters-vscode",
   "displayName": "AICostCutters",
   "description": "AI coding agent that generates code from natural language, automates tasks, and runs terminal commands. Features inline autocomplete, browser automation, automated refactoring, and custom modes for planning, coding, and debugging. Supports 500+ AI models.",

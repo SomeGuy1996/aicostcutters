@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img width="250" alt="aicostcutters-logo" src="aicostcutters.png" />
 </p>
 

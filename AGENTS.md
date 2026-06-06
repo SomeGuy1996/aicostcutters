@@ -1,4 +1,4 @@
-﻿# AGENTS.md
+# AGENTS.md
 
 AICostCutters CLI is an open source AI coding agent that generates code from natural language, automates tasks, and supports 500+ AI models.
 
