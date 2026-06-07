@@ -1,0 +1,17 @@
+{
+  "name": "@aicostcutters/proxy",
+  "version": "0.1.0",
+  "description": "AICostCutters Local Proxy — preflight layer before paid model calls",
+  "type": "module",
+  "bin": {
+    "aicc-proxy": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "bun build src/index.ts --outfile dist/index.cjs --target node --format cjs",
+    "dev": "bun build src/index.ts --outfile dist/index.cjs --target node --format cjs --watch",
+    "start": "node dist/index.cjs",
+    "typecheck": "bun run --noEmit tsc --noEmit 2>/dev/null; true"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

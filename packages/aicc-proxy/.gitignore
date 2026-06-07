@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Build artifacts
+dist/*.js
+dist/*.mjs
+!dist/index.cjs
+
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/

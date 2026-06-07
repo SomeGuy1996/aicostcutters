@@ -1,0 +1,17 @@
+{
+  "provider": {
+    "aicc-proxy": {
+      "name": "AICostCutters Preflight",
+      "api": "openai-compatible",
+      "baseUrl": "http://localhost:8787/v1",
+      "apiKey": "aicc-local-no-auth"
+    }
+  },
+  "model": {
+    "aicc-deepseek": {
+      "provider": "aicc-proxy",
+      "name": "DeepSeek via AICC",
+      "model": "deepseek-chat"
+    }
+  }
+}
